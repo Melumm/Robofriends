@@ -17,7 +17,9 @@ const Card = (props) => {
 // variables in a concise way. This feature is particularly useful 
 // in React components when you're dealing with props and state.
 
-
+// In React, components receive information called "props" (short for properties) 
+// that determine how they look and behave. Destructuring in React is a way to 
+// easily extract specific pieces of information from these props
 
 //destructuring 1
 
