@@ -22,10 +22,12 @@ root.render(
   // </React.StrictMode>
 
   //Starts the process (better way)
-  // Here cardlist component will hold the props of robots
-  <React.StrictMode>
   
-  <Cardlist robots={robots}/>
+  // Creating the Cardlist component helps use avoid unneccessary repetition of codes as we can see in the first metho above. 
+  //we add what we are supposed to repeat to cardlist using the map() function to iterate/loop, 
+  //and cardlist component Here will hold the props of robots.
+  <React.StrictMode>
+    <Cardlist robots={robots} />
   </React.StrictMode>
 );
 
